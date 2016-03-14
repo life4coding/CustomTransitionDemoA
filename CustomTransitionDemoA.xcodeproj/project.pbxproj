@@ -10,6 +10,12 @@
 		57B63C1A1C965CF800B2BB50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B63C191C965CF800B2BB50 /* Main.storyboard */; };
 		57B63C1C1C965E1500B2BB50 /* CustomStoryBoardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B63C1B1C965E1500B2BB50 /* CustomStoryBoardSegue.swift */; };
 		57B63C1E1C96644A00B2BB50 /* CustomDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B63C1D1C96644A00B2BB50 /* CustomDismissAnimator.swift */; };
+		57B63C201C96768E00B2BB50 /* SwipFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B63C1F1C96768E00B2BB50 /* SwipFirstViewController.swift */; };
+		57B63C221C9676A000B2BB50 /* SwipeSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B63C211C9676A000B2BB50 /* SwipeSecondViewController.swift */; };
+		57B63C241C9678BC00B2BB50 /* InteractivityTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B63C231C9678BC00B2BB50 /* InteractivityTransitionDelegate.swift */; };
+		57B63C261C967AD100B2BB50 /* Swipe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B63C251C967AD100B2BB50 /* Swipe.storyboard */; };
+		57B63C281C9698E400B2BB50 /* InteractivityTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B63C271C9698E400B2BB50 /* InteractivityTransitionAnimator.swift */; };
+		57B63C2A1C96A89900B2BB50 /* TransitionInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B63C291C96A89900B2BB50 /* TransitionInteractionController.swift */; };
 		57BD1B451C926BEC007629DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BD1B441C926BEC007629DF /* AppDelegate.swift */; };
 		57BD1B471C926BEC007629DF /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BD1B461C926BEC007629DF /* ViewControllerA.swift */; };
 		57BD1B4A1C926BEC007629DF /* Cross.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BD1B481C926BEC007629DF /* Cross.storyboard */; };
@@ -23,6 +29,12 @@
 		57B63C191C965CF800B2BB50 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		57B63C1B1C965E1500B2BB50 /* CustomStoryBoardSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStoryBoardSegue.swift; sourceTree = "<group>"; };
 		57B63C1D1C96644A00B2BB50 /* CustomDismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDismissAnimator.swift; sourceTree = "<group>"; };
+		57B63C1F1C96768E00B2BB50 /* SwipFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipFirstViewController.swift; sourceTree = "<group>"; };
+		57B63C211C9676A000B2BB50 /* SwipeSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeSecondViewController.swift; sourceTree = "<group>"; };
+		57B63C231C9678BC00B2BB50 /* InteractivityTransitionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractivityTransitionDelegate.swift; sourceTree = "<group>"; };
+		57B63C251C967AD100B2BB50 /* Swipe.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Swipe.storyboard; sourceTree = "<group>"; };
+		57B63C271C9698E400B2BB50 /* InteractivityTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractivityTransitionAnimator.swift; sourceTree = "<group>"; };
+		57B63C291C96A89900B2BB50 /* TransitionInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionInteractionController.swift; sourceTree = "<group>"; };
 		57BD1B411C926BEC007629DF /* CustomTransitionDemoA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransitionDemoA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BD1B441C926BEC007629DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57BD1B461C926BEC007629DF /* ViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
@@ -66,10 +78,16 @@
 			children = (
 				57BD1B441C926BEC007629DF /* AppDelegate.swift */,
 				57BD1B461C926BEC007629DF /* ViewControllerA.swift */,
+				57B63C1F1C96768E00B2BB50 /* SwipFirstViewController.swift */,
+				57B63C231C9678BC00B2BB50 /* InteractivityTransitionDelegate.swift */,
+				57B63C271C9698E400B2BB50 /* InteractivityTransitionAnimator.swift */,
+				57B63C211C9676A000B2BB50 /* SwipeSecondViewController.swift */,
+				57B63C291C96A89900B2BB50 /* TransitionInteractionController.swift */,
 				57BD1B581C92A663007629DF /* CustomAnimator.swift */,
 				57B63C1D1C96644A00B2BB50 /* CustomDismissAnimator.swift */,
 				57BD1B561C926EEC007629DF /* ViewControllerB.swift */,
 				57BD1B481C926BEC007629DF /* Cross.storyboard */,
+				57B63C251C967AD100B2BB50 /* Swipe.storyboard */,
 				57BD1B4B1C926BEC007629DF /* Assets.xcassets */,
 				57BD1B4D1C926BEC007629DF /* LaunchScreen.storyboard */,
 				57BD1B501C926BEC007629DF /* Info.plist */,
@@ -139,6 +157,7 @@
 			files = (
 				57BD1B4F1C926BEC007629DF /* LaunchScreen.storyboard in Resources */,
 				57BD1B4C1C926BEC007629DF /* Assets.xcassets in Resources */,
+				57B63C261C967AD100B2BB50 /* Swipe.storyboard in Resources */,
 				57BD1B4A1C926BEC007629DF /* Cross.storyboard in Resources */,
 				57B63C1A1C965CF800B2BB50 /* Main.storyboard in Resources */,
 			);
@@ -152,11 +171,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				57BD1B571C926EEC007629DF /* ViewControllerB.swift in Sources */,
+				57B63C2A1C96A89900B2BB50 /* TransitionInteractionController.swift in Sources */,
 				57B63C1C1C965E1500B2BB50 /* CustomStoryBoardSegue.swift in Sources */,
 				57B63C1E1C96644A00B2BB50 /* CustomDismissAnimator.swift in Sources */,
 				57BD1B591C92A663007629DF /* CustomAnimator.swift in Sources */,
+				57B63C241C9678BC00B2BB50 /* InteractivityTransitionDelegate.swift in Sources */,
+				57B63C201C96768E00B2BB50 /* SwipFirstViewController.swift in Sources */,
+				57B63C221C9676A000B2BB50 /* SwipeSecondViewController.swift in Sources */,
 				57BD1B471C926BEC007629DF /* ViewControllerA.swift in Sources */,
 				57BD1B451C926BEC007629DF /* AppDelegate.swift in Sources */,
+				57B63C281C9698E400B2BB50 /* InteractivityTransitionAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
