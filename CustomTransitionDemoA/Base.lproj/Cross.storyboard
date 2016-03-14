@@ -82,6 +82,9 @@
                                     <constraint firstAttribute="width" constant="52" id="WfC-bW-vDB"/>
                                 </constraints>
                                 <state key="normal" title="dismiss"/>
+                                <connections>
+                                    <action selector="dismissPressed:" destination="pc8-bz-Bui" eventType="touchUpInside" id="UkW-Aj-heC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

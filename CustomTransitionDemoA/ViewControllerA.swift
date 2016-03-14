@@ -51,7 +51,7 @@ class ViewControllerA: UIViewController , UIViewControllerTransitioningDelegate{
     
     
     func animationControllerForDismissedController(dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return CustomAnimator()
+        return CustomDismissAnimator()
     }
 
     
